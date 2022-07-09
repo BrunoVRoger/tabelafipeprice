@@ -7,6 +7,9 @@ border-bottom: 1px solid rgb(224, 224, 224);
 display:flex;
 justify-content: space-between;
 align-items:center;
+svg{
+  font-size:50px;
+}
 `
 export const SpanTable = styled.span`
 color: rgb(51, 51, 51);
@@ -39,6 +42,7 @@ margin-top:10px;
 text-align:center;
 font-weight: 800;
 font-size:15px;
+
 }
 
 `
