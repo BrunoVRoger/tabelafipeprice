@@ -19,6 +19,17 @@ font-size: 30px;
 font-weight: 800;
 51, 51, 51
 `
+export const Mobi = styled.span`
+color: rgb(51, 51, 51);
+font-size: 30px;
+font-weight: 800;
+`
+export const Auto = styled.span`
+color: rgb(0, 176, 170);
+font-size: 30px;
+font-weight: 800;
+51, 51, 51
+`
 export const SpanPrice = styled.span`
 padding: 10px;
 background: rgb(0, 176, 170);

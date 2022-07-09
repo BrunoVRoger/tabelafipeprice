@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Container, FlexBtn, FlexBtnPrice, Wrapper, Colum, ButtonOptions, Select, Header,SpanTable,SpanFibe } from '../styles/Styles'
+import { Container, FlexBtn, FlexBtnPrice, Wrapper, Colum, ButtonOptions, Select, Header,SpanTable,SpanFibe,Mobi,Auto } from '../styles/Styles'
 import React, { useContext} from 'react'
 import { ConsultPriceContext } from '../Context/ConsultPrice'
 import Link from 'next/link'
@@ -29,7 +29,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Header className="header">
-        <div className="table-fipe"><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
+        <div><Mobi>Mobi</Mobi> <Auto>Auto</Auto></div>
+        <div><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
       </Header>
       <Container>
 

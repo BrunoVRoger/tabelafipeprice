@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useContext } from 'react'
 import { ConsultPriceContext } from '../Context/ConsultPrice'
-import { Wrapper, Container, ButtonOptions, FlexBtnPrice,Header,SpanTable,SpanFibe,SpanPrice } from '../styles/Styles'
+import { Wrapper, Container, ButtonOptions, FlexBtnPrice,Header,SpanTable,SpanFibe,SpanPrice,Mobi,Auto} from '../styles/Styles'
 
 export default function Results() {
     const { results } = useContext(ConsultPriceContext)
@@ -9,6 +9,7 @@ export default function Results() {
     return (
         <>
         <Header className="header">
+        <div><Mobi>Mobi</Mobi> <Auto>Auto</Auto></div>
         <div className="table-fipe"><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
       </Header>
       <Container></Container>
