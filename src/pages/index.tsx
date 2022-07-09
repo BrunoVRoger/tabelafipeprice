@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
 import { Container, FlexBtn, FlexBtnPrice, Wrapper, Colum, ButtonOptions, Select, Header,SpanTable,SpanFibe } from '../styles/Styles'
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import { ConsultPriceContext } from '../Context/ConsultPrice'
 import Link from 'next/link'
 
 
 const Home: NextPage = () => {
-
 
   const { brands,
     models,
