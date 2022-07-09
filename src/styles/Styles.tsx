@@ -45,7 +45,7 @@ font-size:15px;
 `
 export const Wrapper = styled.section`
   padding: 4em;
-  background: papayawhip;
+  background: #fff;
   border-radius:10px;
 `;
 
