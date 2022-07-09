@@ -10,7 +10,7 @@ html{
     font-family:"Roboto";
 }
 body{
-    background-image: linear-gradient(to right, red , yellow);
+    background-color:#ccc;
 }
 
 `

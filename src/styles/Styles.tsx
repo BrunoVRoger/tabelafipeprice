@@ -1,5 +1,32 @@
 import styled from 'styled-components';
 
+export const Header = styled.div`
+padding: 2em;
+background-color: white;
+border-bottom: 1px solid rgb(224, 224, 224);
+display:flex;
+justify-content: space-between;
+align-items:center;
+`
+export const SpanTable = styled.span`
+color: rgb(51, 51, 51);
+font-size: 30px;
+font-weight: 800;
+`
+export const SpanFibe =styled.span`
+color: rgb(0, 176, 170);
+font-size: 30px;
+font-weight: 800;
+51, 51, 51
+`
+export const SpanPrice = styled.span`
+padding: 10px;
+background: rgb(0, 176, 170);
+border-radius: 20px;
+font-size: 15px;
+font-weight: 800;
+`
+
 export const Container = styled.div`
 display: grid;
 justify-content: center;
@@ -10,6 +37,8 @@ text-align:center;
 p{
 margin-top:10px;
 text-align:center;
+font-weight: 800;
+font-size:15px;
 }
 
 `
