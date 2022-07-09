@@ -34,7 +34,7 @@ let selectTruck= vehicle === "caminhoes";
         <FlexBtn>
           <ButtonOptions isActive={selectCar} type="button" onClick={() => handleRequestVehicle('carros')}>Carros</ButtonOptions>
           <ButtonOptions  isActive={selectMoto} type="button" onClick={() => handleRequestVehicle('motos')}>Motos</ButtonOptions>
-          <ButtonOptions isActive={selectTruck} type="button" onClick={() => handleRequestVehicle('caminhoes')}>Caminhoes</ButtonOptions>
+          <ButtonOptions isActive={selectTruck} type="button" onClick={() => handleRequestVehicle('caminhoes')}>Caminhões</ButtonOptions>
         </FlexBtn>
         <Colum>
           <Select  name="select" onChange={(event) => handleRequestModels(event.target.value)}>
