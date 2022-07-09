@@ -3,7 +3,6 @@ import { Container, FlexBtn, FlexBtnPrice, Wrapper, Colum, ButtonOptions, Select
 import React, { useContext, useState } from 'react'
 import { ConsultPriceContext } from '../Context/ConsultPrice'
 import Link from 'next/link'
-import { FaCarSide } from "react-icons/fa";
 
 
 const Home: NextPage = () => {
@@ -31,7 +30,6 @@ const Home: NextPage = () => {
   return (
     <>
       <Header className="header">
-        <div>< FaCarSide/></div>
         <div className="table-fipe"><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
       </Header>
       <Container>
