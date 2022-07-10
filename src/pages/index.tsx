@@ -28,7 +28,7 @@ const Home: NextPage = () => {
   let selectTruck = vehicle === "caminhoes";
   return (
     <>
-      <Header className="header">
+      <Header>
         <div><Mobi>Mobi</Mobi> <Auto>Auto</Auto></div>
         <div><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
       </Header>

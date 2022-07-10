@@ -7,6 +7,16 @@ border-bottom: 1px solid rgb(224, 224, 224);
 display:flex;
 justify-content: space-between;
 align-items:center;
+
+@media only screen and (max-width: 600px) {
+  padding: 2em;
+background-color: white;
+border-bottom: 1px solid rgb(224, 224, 224);
+display:flex;
+justify-content: space-between;
+align-items:center;
+width:550px;
+}
 `
 export const SpanTable = styled.span`
 color: rgb(51, 51, 51);
@@ -52,14 +62,22 @@ font-weight: 800;
 font-size:15px;
 
 }
-
+@media only screen and (max-width: 600px) {
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 3em; 
+  padding: 0 2rem;
+  margin-left: 5rem;
+}
 `
 export const Wrapper = styled.section`
   padding: 4em;
   background: #fff;
   border-radius:10px;
 `;
-
 export const FlexBtn = styled.div`
 display:flex;
 margin-bottom:10px;
@@ -79,6 +97,10 @@ cursor:pointer;
 export const Colum = styled.div`
 display:flex;
 flex-direction:column;
+@media only screen and (max-width: 600px) {
+  padding:2em;
+}
+
 `
 interface ButtonOptionsProps { 
   isActive?: boolean;

@@ -8,9 +8,9 @@ export default function Results() {
     
     return (
         <>
-        <Header className="header">
+        <Header >
         <div><Mobi>Mobi</Mobi> <Auto>Auto</Auto></div>
-        <div className="table-fipe"><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
+        <div ><SpanTable>Tabela</SpanTable> <SpanFibe>.Fipe</SpanFibe></div>
       </Header>
       <Container></Container>
             <Container>
